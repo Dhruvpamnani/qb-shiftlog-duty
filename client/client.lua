@@ -7,7 +7,7 @@
 
 
 
-QBCore = nil
+local QBCore = exports['qb-core']:GetCoreObject()
 
 local citizenid = nil
 local playerData = nil
