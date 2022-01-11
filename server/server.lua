@@ -1,13 +1,5 @@
---[[###########################################
-###############################################
-###########LEGEND|TGB#1058 ####################
-###############################################
-###############################################
-###############################################]]
+local QBCore = exports['qb-core']:GetCoreObject()
 
-
-QBCore = nil
-TriggerEvent('QBCore:GetObject', function(obj) QBCore = obj end)
 local attendenceApi = "https://qbus.onno204.nl/qbus-management/backend/fivem/log"
 
 RegisterServerEvent('qb-attendence:server:Createattendence')
